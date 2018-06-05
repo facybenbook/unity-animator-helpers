@@ -1,0 +1,29 @@
+{
+  "name": "unity-animator-helpers",
+  "version": "1.1.1",
+  "author": "Ash Blue",
+  "homepage": "",
+  "description": "Animation helpers for Unity3D",
+  "license": "NA",
+  "dependencies": {
+    "outputFolder": "Assets/Plugins/UVPM",
+    "packages": [
+      {
+        "name": "ccg-utilities",
+        "version": "^1.0.0"
+      }
+    ]
+  },
+  "publishing": {
+    "targetFolder": "Assets/AdncAnimatorHelpers",
+    "ignore": [
+      "Assets/Plugins"
+    ],
+    "tests": [],
+    "examples": [],
+    "unityVersion": {
+      "min": "",
+      "max": ""
+    }
+  }
+}

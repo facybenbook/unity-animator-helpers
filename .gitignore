@@ -31,3 +31,7 @@ sysinfo.txt
 
 # Builds
 *.apk
+
+# Custom ignores
+Assets/Plugins/UVPM
+Assets/Plugins/UVPM.meta
