@@ -1,6 +1,6 @@
 {
   "name": "unity-animator-helpers",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "author": "Ash Blue",
   "homepage": "",
   "description": "Animation helpers for Unity3D",
@@ -17,7 +17,10 @@
   "publishing": {
     "targetFolder": "Assets/AdncAnimatorHelpers",
     "ignore": [
-      "Assets/Plugins"
+      "Assets/Plugins",
+      "Assets/AdncAnimatorHelpers/Resources",
+      "Assets/AdncAnimatorHelpers/Examples",
+      "Assets/AdncAnimatorHelpers/Testing"      
     ],
     "tests": [],
     "examples": [],
